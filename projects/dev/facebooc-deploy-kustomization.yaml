@@ -5,5 +5,5 @@ metadata:
   name: facebooc-deploy
   namespace: facebooc
 spec:
-  path: ./flux/staging
+  path: ./flux/dev
 
