@@ -10,4 +10,3 @@ spec:
     name: flux-system
   path: ./infra/dev
   prune: true
-  validation: client
