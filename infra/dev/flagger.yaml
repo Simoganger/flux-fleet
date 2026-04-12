@@ -3,7 +3,13 @@ kind: Deployment
 metadata:
   name: flagger
 spec:
+  selector:
+    matchLabels:
+      app: flagger
   template:
+    metadata:
+      labels:
+        app: flagger
     spec:
       containers:
         - name: flagger
